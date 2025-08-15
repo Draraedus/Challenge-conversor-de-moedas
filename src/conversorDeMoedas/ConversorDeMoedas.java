@@ -115,7 +115,7 @@ public class ConversorDeMoedas {
 
     public void menu() throws Exception {
         while (true) {
-            String baseABV = this.viewAndSelectABVToConvert();
+            String baseABV = this.viewAndSelectABV();
             if (baseABV.equals("X")) {break;}
             System.out.println("Moeda escolhida! Aperte enter para continuar.");
             scanner.nextLine();
